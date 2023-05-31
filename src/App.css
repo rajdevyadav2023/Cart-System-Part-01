@@ -15,18 +15,18 @@ header{
   color: dodgerblue;
   /* box-shadow: 0px 0px 10px #80808062 , 0px 0px 20px #8080805d; */
 }
-header button{
-  padding: .7rem 3rem;
+header a{
+  padding: .5rem 3rem;
+  text-decoration: none;
   margin-right: 1rem;
-  background-color: #098;
+  background-color: #444;
   color: white;
-  border: none;
-  outline: none;
   cursor: pointer;
   transition: all .5s ease;
 }
-header button:hover{
- background-color: #1aab8b;
+
+header a.active{
+  background-color: green;
 }
 .container{
   width: 80%;
